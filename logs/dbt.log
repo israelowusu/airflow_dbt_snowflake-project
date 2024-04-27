@@ -1,0 +1,31 @@
+[0m01:41:08.758594 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754cc2f573d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754cc2f56110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754cc2f68c10>]}
+
+
+============================== 01:41:08.784320 | ac7efd04-f2a3-44e8-942b-23fb041a8806 ==============================
+[0m01:41:08.784320 [info ] [MainThread]: Running with dbt=1.7.13
+[0m01:41:08.787027 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/phendy/.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt init', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m01:41:08.789216 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': PosixPath('/home/phendy/.dbt')}
+[0m01:41:08.790988 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m01:41:47.984490 [debug] [MainThread]: Starter project path: /home/phendy/miniconda3/lib/python3.11/site-packages/dbt/include/starter_project
+[0m01:41:47.993380 [info ] [MainThread]: 
+Your new dbt project "dbt_data_pipeline" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m01:41:47.995120 [info ] [MainThread]: Setting up your profile.
+[0m01:45:39.883628 [info ] [MainThread]: Profile dbt_data_pipeline written to /home/phendy/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m01:45:39.905208 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 271.1522, "process_user_time": 6.853319, "process_kernel_time": 1.219178, "process_mem_max_rss": "154176", "process_in_blocks": "119728", "process_out_blocks": "88"}
+[0m01:45:39.907515 [debug] [MainThread]: Command `dbt init` succeeded at 01:45:39.906917 after 271.15 seconds
+[0m01:45:39.909051 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754cc33abc10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754cb7773410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x754cc7267a10>]}
+[0m01:45:39.910776 [debug] [MainThread]: Flushing usage events
